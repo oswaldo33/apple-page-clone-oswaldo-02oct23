@@ -2,3 +2,184 @@
   font-family: 'MyriadPro-Lightr';
   src: url('./assets/fonts/Myriad-Pro-ULTRA-Light.ttf');
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Myriad Pro-Lightr, -apple-system, Roboto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  top: 10%;
+  width: 100%
+}
+
+.foot-l li {
+  list-style-position: inside;
+  border-right: 1px solid #ccc;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.navbar > ul > li {
+  display: block;
+  bottom: 1px solid grey;
+  width: 100px;
+  height: 28px;
+  text-align: center;
+  background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5,#5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  background: -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%)
+}
+
+.v-img a {
+  font-style: 1.6rem;
+  font-weight: lighter;
+}
+
+.m-foot a{
+  text-decoration: none;
+  color: #0088cf;
+}
+
+.head-d > h1 > a {
+  text-decoration: none;
+  color: white;
+  text-align: center:
+}
+
+.navbar > ul > li a {
+  text-decoration: none
+  color: #fff;
+}
+
+.navbar > ul > li > a > span {
+  display: block;
+  font-size: 13px;
+  padding-top: 5px;
+  width: 100px;
+  height: 25px;
+}
+
+.apple-icon {
+  height: 20px;
+  width: 20px
+}
+
+.first-icon {
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius:  6px;
+}
+
+.navbar > ul > .searchbar {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 150px;
+}
+
+.search-btn {
+  width: 110px;
+  margin-top: 2px;
+  border-radius: 6px;
+  background: -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5,#5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  background: -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%)
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.search-btn > .search-icon {
+  display: block;
+  color: #fff;
+  width: 20px;
+  font-size: 16px;
+}
+
+.decoration-none-ul {
+  list-style: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.tex-decoration-none-2 {
+  text decoration: none;
+  color: #fff;
+}
+
+.disp-grd {
+  min-width: 1102px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 650px 1fr;
+  grid-template-areas: 
+      "head-d head-d head-d head-d"
+      "ip-5s ip-5c 30-y di-r";
+  gap: 2px;
+}
+
+.head-d {
+  ff:MyriadPro-Lightr, Arial, Helveyica, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  background: #b3d9e9 url("assets/main-screen.jpg") center 700px;
+  grid-area: head-d;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-m-ver-be {
+  margin-top: 250px;
+  font-weight: lighter;
+  font-size: 65px;
+}
+
+
+.main-share{
+  margin-top: 5px;
+  font-size: 2.2rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.v-img {
+  margin-top: 1.8em;
+}
+
+.v-img a:hover {
+  text-decoration: underline;
+}
+
+.p-btn {
+  position: relative;
+  top: 0.5em;
+  margin-left: 0.5em;
+  width: 2em;
+}
